@@ -16,7 +16,7 @@ public class MovieInfoController {
 
     @GetMapping
     public List<MovieInfoDto> getMovieInfo() {
-    return  movieInfoService.getMovieInfo();
+    return movieInfoService.getMovieInfo();
     }
 
     @GetMapping("/{id}")
